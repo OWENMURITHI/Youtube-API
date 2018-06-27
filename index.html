@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title> Search Vidz</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1> Search<span>Vidz</span></h1>
+            <p>Search all YouTube Videos...</p>
+
+        </header>
+        <div id="section">
+            <form name="search-form" id="search-form" onsubmit="search()">
+                <div class="fieldcontainer">
+                    <input class="search-field" id="query" type="search" placeholder="SearchVidz...">
+                    <input id="search-btn" type="submit" value="Search" name="search-btn">
+                </div>
+
+            </form>
+            <ul id="results"></ul>
+            <div id="buttons"></div>
+        </div>
+
+    </div>
+    <footer>
+        <p>Copyright &copy;2018, All Rights Reserved: <i>By Owen Murithi </i></p>
+    </footer>
+</body>
+
+</html>
